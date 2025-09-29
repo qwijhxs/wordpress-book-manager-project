@@ -1,0 +1,151 @@
+[27-Sep-2025 09:33:02 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "orderby", expecting ")" in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\content.php on line 5
+[27-Sep-2025 09:47:14 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\content.php on line 12
+[27-Sep-2025 10:02:36 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\content.php on line 12
+[27-Sep-2025 10:12:49 UTC] PHP Parse error:  syntax error, unexpected token "<" in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\content.php on line 12
+[27-Sep-2025 10:20:13 UTC] PHP Warning:  require_once(C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php): Failed to open stream: No such file or directory in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:20:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php:43
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(324): BookManager->init_plugin('')
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-config.php(103): require_once('C:\\Users\\bot ki...')
+#5 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-load.php(50): require_once('C:\\Users\\bot ki...')
+#6 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\bot ki...')
+#7 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\bot ki...')
+#8 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:31 UTC] PHP Warning:  require_once(C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php): Failed to open stream: No such file or directory in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php:43
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(324): BookManager->init_plugin('')
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-config.php(103): require_once('C:\\Users\\bot ki...')
+#5 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-load.php(50): require_once('C:\\Users\\bot ki...')
+#6 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\bot ki...')
+#7 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\bot ki...')
+#8 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:32 UTC] PHP Warning:  require_once(C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php): Failed to open stream: No such file or directory in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php:43
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(324): BookManager->init_plugin('')
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-config.php(103): require_once('C:\\Users\\bot ki...')
+#5 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-load.php(50): require_once('C:\\Users\\bot ki...')
+#6 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\bot ki...')
+#7 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\bot ki...')
+#8 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:32 UTC] PHP Warning:  require_once(C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php): Failed to open stream: No such file or directory in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php:43
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(324): BookManager->init_plugin('')
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-config.php(103): require_once('C:\\Users\\bot ki...')
+#5 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-load.php(50): require_once('C:\\Users\\bot ki...')
+#6 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\bot ki...')
+#7 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\bot ki...')
+#8 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:32 UTC] PHP Warning:  require_once(C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php): Failed to open stream: No such file or directory in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php:43
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(324): BookManager->init_plugin('')
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-config.php(103): require_once('C:\\Users\\bot ki...')
+#5 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-load.php(50): require_once('C:\\Users\\bot ki...')
+#6 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\bot ki...')
+#7 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\bot ki...')
+#8 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:32 UTC] PHP Warning:  require_once(C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php): Failed to open stream: No such file or directory in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:22:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager/includes/class-book-cpt.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php:43
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(324): BookManager->init_plugin('')
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-settings.php(727): do_action('init')
+#4 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-config.php(103): require_once('C:\\Users\\bot ki...')
+#5 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-load.php(50): require_once('C:\\Users\\bot ki...')
+#6 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\admin.php(35): require_once('C:\\Users\\bot ki...')
+#7 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-admin\plugins.php(10): require_once('C:\\Users\\bot ki...')
+#8 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 43
+[27-Sep-2025 10:38:46 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[27-Sep-2025 10:38:50 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-customize-widgets.php on line 926
+[27-Sep-2025 13:43:51 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting ";" in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 193
+[27-Sep-2025 13:43:52 UTC] PHP Parse error:  syntax error, unexpected token ".", expecting ";" in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 193
+[27-Sep-2025 13:45:26 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 186
+[27-Sep-2025 15:06:36 UTC] PHP Fatal error:  Uncaught TypeError: str_repeat(): Argument #2 ($times) must be of type int, string given in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php:24
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php(24): str_repeat('\xE2\xAD\x90', '')
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\bot ki...')
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-blog-header.php(19): require_once('C:\\Users\\bot ki...')
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\index.php(17): require('C:\\Users\\bot ki...')
+#4 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 24
+[27-Sep-2025 15:07:01 UTC] PHP Fatal error:  Uncaught TypeError: str_repeat(): Argument #2 ($times) must be of type int, string given in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php:24
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php(24): str_repeat('\xE2\xAD\x90', '')
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\bot ki...')
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-blog-header.php(19): require_once('C:\\Users\\bot ki...')
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\index.php(17): require('C:\\Users\\bot ki...')
+#4 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 24
+[27-Sep-2025 15:20:30 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:30 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:31 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:20:32 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:32 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:20:32 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:32 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:20:32 UTC] PHP Warning:  Undefined variable $genre in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 14
+[27-Sep-2025 15:20:32 UTC] PHP Warning:  Undefined variable $rating in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php on line 33
+[27-Sep-2025 15:24:33 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\post-template.php:324
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\post-template.php(247): get_the_content('<span aria-labe...', false)
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\single-book.php(69): the_content()
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\bot ki...')
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-blog-header.php(19): require_once('C:\\Users\\bot ki...')
+#4 C:\Users\bot kiril\Local Sites\book-manager\app\public\index.php(17): require('C:\\Users\\bot ki...')
+#5 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\post-template.php on line 324
+[27-Sep-2025 17:34:00 UTC] PHP Fatal error:  Cannot redeclare intentionally_blank_setup() (previously declared in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\functions.php:123) in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\footer.php on line 3
+[27-Sep-2025 17:34:10 UTC] PHP Fatal error:  Cannot redeclare intentionally_blank_setup() (previously declared in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\functions.php:123) in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\footer.php on line 3
+[27-Sep-2025 17:34:15 UTC] PHP Fatal error:  Cannot redeclare intentionally_blank_setup() (previously declared in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\functions.php:123) in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\footer.php on line 3
+[27-Sep-2025 17:42:12 UTC] PHP Fatal error:  Cannot redeclare intentionally_blank_setup() (previously declared in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\functions.php:123) in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\footer.php on line 3
+[27-Sep-2025 17:42:32 UTC] PHP Fatal error:  Cannot redeclare intentionally_blank_setup() (previously declared in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\functions.php:123) in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\footer.php on line 3
+[28-Sep-2025 15:16:49 UTC] PHP Warning:  Attempt to read property "post_content" on null in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\plugins\book-manager\book-manager.php on line 177
+[28-Sep-2025 23:16:23 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class BookManager does not have a method "add_book_styles" in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\general-template.php(3192): do_action('wp_head')
+#3 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\header.php(17): wp_head()
+#4 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\template.php(810): require_once('C:\\Users\\bot ki...')
+#5 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\template.php(745): load_template('C:\\Users\\bot ki...', true, Array)
+#6 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-content\themes\intentionally-blank\page-books.php(1): get_header()
+#8 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\bot ki...')
+#9 C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-blog-header.php(19): require_once('C:\\Users\\bot ki...')
+#10 C:\Users\bot kiril\Local Sites\book-manager\app\public\index.php(17): require('C:\\Users\\bot ki...')
+#11 {main}
+  thrown in C:\Users\bot kiril\Local Sites\book-manager\app\public\wp-includes\class-wp-hook.php on line 324
