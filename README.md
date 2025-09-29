@@ -28,8 +28,6 @@ Security (nonce, sanitization, escaping)
 
 ✅ Admin Interface for Book Management
 
-✅ Custom Taxonomy "Book Genres"
-
 🎨 Theme Modifications
 ✅ Custom Book Single Template
 
