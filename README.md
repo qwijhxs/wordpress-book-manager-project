@@ -29,6 +29,7 @@ Security (nonce, sanitization, escaping)
 ✅ Admin Interface for Book Management
 
 🎨 Theme Modifications
+
 ✅ Custom Book Single Template
 
 ✅ Books Page Template with Shortcode
